@@ -1,30 +1,72 @@
-# ClearList app
+# ✅ ClearList App
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+A minimalist, responsive to-do checklist app to help you stay organized and focused. No distractions — just a clean interface for managing your tasks.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/jal-hassanis-projects/v0-clear-list-app)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/3Ba8Jq08r3w)
+## 🚀 Features
 
-## Overview
+- Add, edit, and delete tasks
+- Mark tasks as complete/incomplete
+- Auto-save to browser (local storage)
+- Responsive design for mobile and desktop
+- Lightning-fast and clutter-free
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## 🛠️ Tech Stack
 
-## Deployment
+- **Frontend**: HTML5, CSS3, JavaScript (Vanilla or Framework)
+- **Storage**: LocalStorage (MVP, no backend required)
+- **Framework**: [React](https://reactjs.org/) *(if used)*
+- **Styling**: Tailwind CSS or custom styles *(if applicable)*
 
-Your project is live at:
+## 📦 Getting Started
 
-**[https://vercel.com/jal-hassanis-projects/v0-clear-list-app](https://vercel.com/jal-hassanis-projects/v0-clear-list-app)**
+### 1. Clone the repository
+```bash
+git clone https://github.com/JAl-Hassani/clear-list-app.git
+cd clear-list-app
+```
 
-## Build your app
+### 2. Install dependencies (if using a JS framework)
+```bash
+npm install
+```
 
-Continue building your app on:
+### 3. Start the development server
+```bash
+npm run dev
+```
+Or open `index.html` directly in your browser if it's a vanilla JS project.
 
-**[https://v0.dev/chat/projects/3Ba8Jq08r3w](https://v0.dev/chat/projects/3Ba8Jq08r3w)**
+## 📁 Folder Structure
 
-## How It Works
+```text
+clear-list-app/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   └── App.js
+├── styles/
+│   └── main.css
+├── package.json
+└── README.md
+```
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+*(Structure may vary depending on framework used)*
+
+## ✅ Roadmap
+
+- [x] Add/edit/delete tasks
+- [x] Persist tasks in local storage
+- [ ] Add due dates and priorities
+- [ ] Cloud sync (Firebase)
+- [ ] Dark mode toggle
+
+## 🧪 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
+
+1. Fork the repo
+2. Create a branch (`git checkout -b feature/fooBar`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Open a Pull Request
