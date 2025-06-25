@@ -20,25 +20,25 @@ A minimalist, responsive to-do checklist app to help you stay organized and focu
 ## 📦 Getting Started
 
 ### 1. Clone the repository
-```bash
+\`\`\`bash
 git clone https://github.com/JAl-Hassani/clear-list-app.git
 cd clear-list-app
-```
+\`\`\`
 
 ### 2. Install dependencies (if using a JS framework)
-```bash
+\`\`\`bash
 npm install
-```
+\`\`\`
 
 ### 3. Start the development server
-```bash
+\`\`\`bash
 npm run dev
-```
+\`\`\`
 Or open `index.html` directly in your browser if it's a vanilla JS project.
 
 ## 📁 Folder Structure
 
-```text
+\`\`\`text
 clear-list-app/
 ├── public/
 │   └── index.html
@@ -49,7 +49,7 @@ clear-list-app/
 │   └── main.css
 ├── package.json
 └── README.md
-```
+\`\`\`
 
 *(Structure may vary depending on framework used)*
 
